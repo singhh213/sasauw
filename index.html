@@ -34,6 +34,14 @@
 </head>
 
 <body id="page-top" class="index">
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1496642533933348";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -137,7 +145,7 @@
             </div>
             <div class="row">
                 <!-- changed md/sm because there is only 1 event right now -->
-                <div class="col-md-12 col-sm-12 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -151,21 +159,21 @@
                         <p class="text-muted">Dawg Daze</p>
                     </div>
                 </div>
-     <!--            <div class="col-md-4 col-sm-6 portfolio-item">
+               <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/doia.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Day of Indian Arts</h4>
+                        <p class="text-muted">November 7th, 2015</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -235,7 +243,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                     <div class="timeline-heading">
                         
                         <h4 class="subheading">Who We Are:</h4>
@@ -254,7 +262,8 @@
                         <p class="text-muted">The South Asian Student Association holds many social, cultural and dancing events through out the year. It is a great way to take a study break, meet new people and catch up with friends. Some of our events include: SASA Black and White Dance Party, SASA Formal Dance Party, Desi Dhamaka (Joint event with other organizations), Game Nights, Movie Nights, Networking Nights
                        </p>
                     </div>
-
+                </div>
+                <div class="fb-page col-lg-4" data-href="https://www.facebook.com/sasauw" data-width="320" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/sasauw"><a href="https://www.facebook.com/sasauw">Sasa Uw</a></blockquote></div></div>
 
 
                     <!-- <ul class="timeline">
@@ -416,24 +425,40 @@
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/freshman.jpg" class="img-responsive img-circle" alt="">
-                        <h4>???</h4>
+                        <h4>Divya Madhavan</h4>
+                        <p class="text-muted">Sponsorship Chair</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/freshman.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Vivaan Bhatia</h4>
+                        <p class="text-muted">Freshman Rep</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/harpreet.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Karishma Mandyam</h4>
                         <p class="text-muted">Freshman Rep</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/freshman.jpg" class="img-responsive img-circle" alt="">
-                        <h4>???</h4>
+                        <h4>Sanjay Kubsad</h4>
                         <p class="text-muted">Freshman Rep</p>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">SASA is looking for Freshman Reps for this year! Look out for applications on SASA’s facebook page. Applications will be open through <strong>Wednesday, October 12th, 2015!<strong></p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -487,10 +512,6 @@
                                     <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
-                                <!-- <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div> -->
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -557,15 +578,13 @@
                             <!-- Project Details Go Here -->
                             <h2>Minute To Win It</h2>
                             <p class="item-intro text-muted">Dawg Daze</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dawg-daze-event.jpg" alt="">
+                            <!-- <img class="img-responsive img-centered" src="img/portfolio/dawg-daze-event.jpg" alt=""> -->
                             <p>SASA is back and ready for an amazing year of events! The South Asian Student Association is pleased to present our Dawg Daze event: Minute To Win It – Desi Style! 
                             <br><br>
                             Think you’re up for the challenge of tying a sari or putting together puzzle pieces to create a picture of a classic Bollywood scene in one minute? Whether you want to watch or play in the game, stop by to enjoy FREE pakoras (crispy South Asian snack), falooda (milkshake with rose syrup), henna tattoos, and a fun photo booth! 
                             <br><br>
                             Join us on Tuesday, September 29th from 4 – 6pm at HUB 214 for one final hurrah before school starts. Everyone is welcome!
                             </p>
-                            <!-- <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p> -->
                             <ul class="list-inline">
                                 <li>Date: September 29, 2015</li>
                                 <li>Time: 4-6PM</li>
@@ -580,7 +599,7 @@
     </div>
 
     <!-- Portfolio Modal 2 -->
-    <!-- <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -592,18 +611,26 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Heading</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <!-- Project Details Go Here -->
+                            <h2>Day of Indian Arts</h2>
+                            <p class="item-intro text-muted">SASAUW & KinspireUW</p>
+                            <!-- <img class="img-responsive img-centered" src="img/portfolio/dawg-daze-event.jpg" alt=""> -->
+                            <p>A Day of Indian Arts is a workshop-style community event, showcasing a variety of arts across the Indian subcontinent! There will be dancing, singing, instruments, yoga, clay diya-making and food! Come by between 4 and 7 and experience the cultural roots of Indian arts! Please be sure to wear comfortable clothes, so that you can participate in all the activities! Suggested $5-$10 donation and it is open to ALL public. 
+                            <br><br>
+                            All donations go to Kinspire, a 501(c)(3) non profit dedicated to bettering the lives of children in orphanages in India. Find out more at http://kinspire.org/
+                            </p>
+                            <ul class="list-inline">
+                                <li>Date: Novemeber 7, 2015</li>
+                                <li>Time: 4-7PM</li>
+                                <li>Location: Alder Commons</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Event</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!-- Portfolio Modal 3 -->
     <!-- <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">

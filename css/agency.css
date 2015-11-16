@@ -541,6 +541,10 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
+.timeline-body {
+    padding-right: 3em;
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
