@@ -61,11 +61,11 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #E4F0FB;
+    background-color: #BFEFFF;
 }
 
 .bg-darkest-gray {
-    background-color: #222;
+    background-color: #FAFAFA;
 }
 
 .btn-primary {
@@ -869,6 +869,12 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+.fb-page {
+    border-style: solid;
+    border-width: medium;
+    border-color: gray;
 }
 
 /*#background {
